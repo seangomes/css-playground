@@ -1,19 +1,76 @@
+/* https://i.pinimg.com/originals/59/9d/75/599d75221c1ce34477c10f5ad914dd9e.png */
+
 * {
     margin:0px;
     padding: 0px;
 }
 
 body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu-content .avatar-img {
+    height: 100px;
+    width: 100px;
+    padding: 25px;
+    color:white;
     
 }
 
+
+#menu-content h3 {
+    font-size: 15px;
+}
+
+#menu-content p {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+
+
+#menu-content {
+    background-color:  #2D3E4F;
+    width: 250px;
+    position: absolute;
+    color: white;
+    height: 100%;
+
+}
+
+#profile-info {
+    text-align: center;
+}
+
+.menu-icons {
+    margin-right: 15px;
+    color: white;
+}
+
 .menu {
-    background-color: #cccccc;
-    width: 30%;
+    /* background-color: #cccccc; */
+    margin-top: 50px;
 }
 
 .menu li {
     display: block;
-    margin: 0px 0 0 100px;
     padding: 20px;
+    font-size: 12px;
+    color: white;
+}
+
+.menu li:hover {
+    background-color: lightgrey;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+#content {
+    margin-left: 255px;
+    /* background-color: blueviolet; */
+
 }
