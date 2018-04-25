@@ -1,0 +1,19 @@
+* {
+    margin:0px;
+    padding: 0px;
+}
+
+body {
+    
+}
+
+.menu {
+    background-color: #cccccc;
+    width: 30%;
+}
+
+.menu li {
+    display: block;
+    margin: 0px 0 0 100px;
+    padding: 20px;
+}
