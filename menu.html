@@ -1,58 +1,100 @@
-
 <!DOCTYPE html>
 <html lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Title Page</title>
 
-        <!-- Bootstrap CSS
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title Page</title>
+
+    <!-- Bootstrap CSS
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
-        <link href="style.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+        crossorigin="anonymous">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
-    </head>
-    <body>
-        
-        <section id="menu-content">
-            <article id="profile-info">
-                <img class="avatar-img overlay" src="https://www.freewebmentor.com/default-avatar.png">
-            
-                <h3>Phillip Wallet</h3>
+</head>
 
-                <p>Teacher</p>
+<body>
 
-            </article>
-                <ul class="menu">
-                        <li><a href="#"><i class="far fa-list-alt menu-icons"></i> Dashboard</a></li>
-                        <li><a href="#"><i class="far fa-newspaper menu-icons"></i> News</a></li>
-                        <li><a href="#"><i class="far fa-user menu-icons"></i> Users</a></li>
-                        <li><a href="#"><i class="far fa-sun menu-icons"></i> Settings</a></li>
-                    </ul>
+    <!--MENU-->
+    <section id="menu-content">
+        <article id="profile-info">
+            <img class="avatar-img overlay" src="https://www.freewebmentor.com/default-avatar.png">
+
+            <h3>Phillip Wallet</h3>
+
+            <p>Teacher</p>
+
+        </article>
+        <ul class="menu">
+            <li>
+                <a href="#">
+                    <i class="far fa-list-alt menu-icons"></i> Dashboard</a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="far fa-newspaper menu-icons"></i> News</a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="far fa-user menu-icons"></i> Users</a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="far fa-sun menu-icons"></i> Settings</a>
+            </li>
+        </ul>
+    </section>
+
+    <!--CONTENT-->
+    <section id="content">
+
+        <!--Top bar-->
+        <section id="top-bar">
+            <div class="top-bar-content">
+
+                <input type="text" class="search-input" placeholder="search..." name="search" />
+                <i class="fas fa-search search-input-icon"></i>
+                <i class="fas fa-sign-out-alt"></i>
+            </div>
+
+        </section>
+
+        <div class="container">
+
+
+            <!--User list-->
+            <section class="column">
+                <div id="user-list">
+                    <h5>Users</h5>
+                    <br>
+                    <p>Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien.</p>
+                </div>
             </section>
 
-
-        <section id="content">
-                Lorem Ipsum er ganske enkelt fyldtekst fra print- og typografiindustrien. Lorem Ipsum har været standard fyldtekst siden 1500-tallet, hvor en ukendt trykker sammensatte en tilfældig spalte for at trykke en bog til sammenligning af forskellige skrifttyper. Lorem Ipsum har ikke alene overlevet fem århundreder, men har også vundet indpas i elektronisk typografi uden væsentlige ændringer. Sætningen blev gjordt kendt i 1960'erne med lanceringen af Letraset-ark, som indeholdt afsnit med Lorem Ipsum, og senere med layoutprogrammer som Aldus PageMaker, som også indeholdt en udgave af Lorem Ipsum.
-        
-                Hvor kommer det fra?
-                I modsætning til hvad mange tror, er Lorem Ipsum ikke bare tilfældig tekst. Det stammer fra et stykke litteratur på latin fra år 45 f.kr., hvilket gør teksten over 2000 år gammel. Richard McClintock, professor i latin fra Hampden-Sydney universitet i Virginia, undersøgte et af de mindst kendte ord "consectetur" fra en del af Lorem Ipsum, og fandt frem til dets oprindelse ved at studere brugen gennem klassisk litteratur. Lorem Ipsum stammer fra afsnittene 1.10.32 og 1.10.33 fra "de Finibus Bonorum et Malorum" (Det gode og ondes ekstremer), som er skrevet af Cicero i år 45 f.kr. Bogen, som var meget populær i renæssancen, er en afhandling om etik. Den første linie af Lorem Ipsum "Lorem ipsum dolor sit amet..." kommer fra en linje i afsnit 1.10.32.
-                
-                Standardafsnittet af Lorem Ipsum, som er brugt siden 1500-tallet, er gengivet nedenfor for de, der er interesserede. Afsnittene 1.10.32 og 1.10.33 fra "de Finibus Bonorum et Malorum" af Cicero er også gengivet i deres nøjagtige udgave i selskab med den engelske udgave fra oversættelsen af H. Rackham fra 1914.
+            <!--Side info bar-->
+            <section class="column">
+                <div id="side-info-bar">
+                    geesadasd
+                </div>
             </section>
+        </div>
 
-        
-        
+    </section>
 
-        <!-- jQuery -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-        <!-- Bootstrap JavaScript -->
-        <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
-    </body>
+
+
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+</body>
+
 </html>
